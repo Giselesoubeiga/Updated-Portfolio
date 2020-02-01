@@ -5,19 +5,29 @@ body,html{
 } 
 
 .profil-bg{
-    height:  350px;
+    height:  450px;
     background-image:  url(../images/scarf_background.jpg) ;
     background-size: cover;
+
 }
 .profil-display{
-    background: #ccc;
+    background: rgba(255, 255, 255, 0.7);
     margin-top: 6%;
+    position: relative;
+   
 }
-
+.profil-display p{
+    padding-left: 250px;;
+}
 .middle-block{
     height: 350px;
     background-image:  url(../images/scarf_background.jpg) ;
     background-size: cover;
     
 
+}
+.profil-img{
+position: absolute; 
+top:25px;
+left:25px;
 }

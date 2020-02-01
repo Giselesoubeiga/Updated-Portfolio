@@ -1,0 +1,23 @@
+body,html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #eee;
+
+} 
+
+.profil-bg{
+    height:  350px;
+    background-image:  url(../images/scarf_background.jpg) ;
+    background-size: cover;
+}
+.profil-display{
+    background: #ccc;
+    margin-top: 6%;
+}
+
+.middle-block{
+    height: 350px;
+    background-image:  url(../images/scarf_background.jpg) ;
+    background-size: cover;
+    
+
+}

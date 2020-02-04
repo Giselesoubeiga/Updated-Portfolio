@@ -1,11 +1,17 @@
 body,
 html {
-    font-family: 'Courier Prime', monospace;
+    font-family: "Roboto", sans-serif !important;
+    /* font-family: 'Courier Prime', monospace; */
     color: #000;
-    background-image: url(../images/scarf_background.jpg);
+    background-image: url(../images/sunset_tree_lake_130063_1280x720.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.navbar{
+    background: #3d2c70;
+    
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 
@@ -33,8 +39,8 @@ html {
 }
 
 .middle-block {
-    height: 350px;
-    /* background-image: url(../images/scarf_background.jpg);
+    /*   height: 350px;
+  background-image: url(../images/scarf_background.jpg);
     background-size: cover; */
 }
 

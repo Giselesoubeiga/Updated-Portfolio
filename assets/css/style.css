@@ -1,12 +1,14 @@
-body,
-html {
+body
+ {
     font-family: "Roboto", sans-serif !important;
     /* font-family: 'Courier Prime', monospace; */
     color: #000;
-    background-image: url(../images/sunset_tree_lake_130063_1280x720.jpg);
+    background-image: url(../images/abstraction_stains_paint_159223_1280x720.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    overflow-x: hidden;
+
 }
 .navbar{
     background: #3d2c70;
@@ -63,3 +65,23 @@ html {
 .contact-img img {
     width: 100%;
 }
+
+.footer{
+    background: #000;
+    text-align: center;
+    font-size: 1em;
+    height: 80px;
+    line-height: 80px;
+    position: sticky;
+    bottom: -15px;
+    width: 100%;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .myprofilbox{
+      display: flex;
+      flex-direction: column ;
+      background:green;
+    }
+  }
